@@ -1,0 +1,24 @@
+{
+  "name": "request-encode-jp",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "suisho",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.14.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "request",
+    "encoding",
+    "japanese"
+  ]
+}

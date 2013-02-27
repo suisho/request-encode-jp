@@ -1,0 +1,3 @@
+[submodule "unzipper"]
+	path = unzipper
+	url = git://github.com/polygonplanet/Unzipper.js.git
