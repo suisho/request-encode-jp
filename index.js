@@ -1,7 +1,7 @@
 var request = require("request")
-var Encoding = module.exports.Encoding = require("./unzipper/src/encoding.js").Encoding;
+var Encoding = require("./unzipper/src/encoding.js").Encoding;
 
-module.exports.request = function(options, callback) {
+module.exports = function(options, callback) {
   options = request.initParams(options);
   options.encoding = null;
   request(options, function(error, response, body){
@@ -15,3 +15,4 @@ module.exports.request = function(options, callback) {
     callback(error, response, body);
   });
 }
+module.exports.Encoding = Encoding
