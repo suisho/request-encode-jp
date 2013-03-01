@@ -15,7 +15,10 @@
   "dependencies": {
     "request": "~2.14.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "request": "~2.14.0",
+    "connect": "~2.7.3"
+  },
   "keywords": [
     "request",
     "encoding",
